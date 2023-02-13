@@ -1,0 +1,151 @@
+.App {
+  font-family: sans-serif;
+  /* text-align: center; */
+}
+
+.profile-pic {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.App > div:nth-child(3) > .profile-pic {
+  border-radius: 0px;
+}
+
+.like-style,
+.dislike-style{
+  font-size: 25px;
+}
+
+.like-style{
+  margin-right: 1rem;
+}
+
+.add-color{
+  display: flex;
+}
+
+.movie-spec{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.movie-container{
+  width: 340px;
+}
+
+.movie-poster{
+  width: 340px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.movie-name{
+  font-size: 24px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.movie-summary{
+  margin-top: 0;
+}
+
+.movie-rating{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.movie-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 18px;
+}
+
+.add-movie-form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.movie-detail-container{
+  max-width: 1300px;
+}
+
+.not-found{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.button-style{
+  font-size: 30px;
+}
+
+.game-box {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  height: 8rem;
+  width: 8rem;
+  font-size: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: min-content;
+}
+
+.full-game {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+}
+
+.game-title {
+  font-size: 35px;
+  color: black;
+}
+
+/* export function Example({name, work}){  
+    
+  return(
+     <div>
+          <div>
+              <h1>Hello my name is {name} & I am {work}</h1> 
+          </div>
+      </div>
+  )
+} 
+
+
+export function Example(props){
+   const color = ["Yellow","Green","Orange"]
+  return(
+      <div>
+          <div>
+          <h1>Hello my name is {props.name} & I am {props.work}</h1>
+          </div>
+      </div>
+  )
+}
+ */
